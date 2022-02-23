@@ -47,13 +47,13 @@
         </div>
       </ng-container>
       <ng-container>
-        <ion-row *ngFor="let compras of comprasData; let i = index" (click)="cambiarCompra(compras.FOLIO, i)" [class.selected]="i === currentComprasSelected">
-          <ion-col>{{ compras.FOLIO }}</ion-col>
-          <ion-col>{{ compras.PROVEEDOR_NOMBRE }}</ion-col>
-          <ion-col>{{ compras.ESTATUS_DESC }}</ion-col>
-          <ion-col>{{ compras.CANTIDAD_MEN_SOLICTADO }}</ion-col>
-          <ion-col>{{ compras.CANTIDAD_MEN_RECEPCION }}</ion-col>
-          <ion-col>{{ compras.CANT_MEN_PENDIENTE }}</ion-col>
+        <ion-row *ngFor="let compras of comprasData; let i = index" (click)="cambiarCompra(compras.folio, i)" [class.selected]="i === currentComprasSelected">
+          <ion-col>{{ compras.folio }}</ion-col>
+          <ion-col>{{ compras.proveedor_nombre }}</ion-col>
+          <ion-col>{{ compras.estatus_desc }}</ion-col>
+          <ion-col>{{ compras.cantidad_men_solictado }}</ion-col>
+          <ion-col>{{ compras.cantidad_men_recepcion }}</ion-col>
+          <ion-col>{{ compras.cant_men_pendiente }}</ion-col>
         </ion-row>
       </ng-container>
     </ion-grid>
@@ -90,13 +90,13 @@
       </ng-container>
       <ng-container>
         <ion-row *ngFor="let recepcion of recepcionData; let i = index" (click)="recepcionSelected(i)" [class.selected]="i === currentRecepcionSelected">
-          <ion-col>{{recepcion.RECEPCION}}</ion-col>
-          <ion-col>{{recepcion.ESTATUS_DESC}}</ion-col>
-          <ion-col>{{recepcion.CANTIDAD_TARIMAS}}</ion-col>
-          <ion-col>{{recepcion.CANTIDAD_MAY_REMFACT}}</ion-col>
-          <ion-col>{{recepcion.CANTIDAD_MEN_REMFACT}}</ion-col>
-          <ion-col>{{recepcion.CANTIDAD_MAY_RECEPCION}}</ion-col>
-          <ion-col>{{recepcion.CANTIDAD_MEN_RECEPCION}}</ion-col>
+          <ion-col>{{recepcion.recepcion}}</ion-col>
+          <ion-col>{{recepcion.estatus_desc}}</ion-col>
+          <ion-col>{{recepcion.cantidad_tarimas}}</ion-col>
+          <ion-col>{{recepcion.cantidad_may_remfact}}</ion-col>
+          <ion-col>{{recepcion.cantidad_men_remfact}}</ion-col>
+          <ion-col>{{recepcion.cantidad_may_recepcion}}</ion-col>
+          <ion-col>{{recepcion.cantidad_men_recepcion}}</ion-col>
         </ion-row>
       </ng-container>
     </ion-grid>

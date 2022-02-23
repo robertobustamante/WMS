@@ -106,7 +106,7 @@ export class ComprasPage implements OnInit, OnDestroy {
 
   recepcionSelected(indx: any) {
     this.currentRecepcionSelected = indx;
-    this.selectedIdRecepcion = this.recepcionData[indx].RECEPCION;
+    this.selectedIdRecepcion = this.recepcionData[indx].recepcion;
     if (this.recepcionData[indx]) {
       this.btnDisabled = false;
     } else {

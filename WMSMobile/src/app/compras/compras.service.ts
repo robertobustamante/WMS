@@ -17,17 +17,18 @@ export class ComprasService {
 
   getOrdenCompra(ip: string, IdPlanta: any): Observable<CompraModel[]>{
     let params = new HttpParams()
-    .set('access-control-allow-origin',ip + '/Api');
+    .set('access-control-allow-origin',ip + this.apiUrl)
+    .set('idPlanta', IdPlanta);
 
-    return this.http.get<CompraModel[]>(ip + this.apiUrl + 'GetTablaOrdenCompra?idPlanta='+IdPlanta, { params });//.pipe(retry(1), catchError(this.handleError));
+    return this.http.get<CompraModel[]>(ip + this.apiUrl + 'GetTablaOrdenCompra', { params });//.pipe(retry(1), catchError(this.handleError));
   }
   getRecepcion(ip: string, IdPlanta: any, folio: any): Observable<RecepcionModel[]> {
     var params = new HttpParams()
-      .set('access-control-allow-origin', ip + '/Api')
+      .set('access-control-allow-origin', ip + this.apiUrl)
       .set('idPlanta', IdPlanta)
       .set('folioMicrosip', folio);
 
-    return this.http.get<RecepcionModel[]>(ip + this.apiUrl + 'GetTablaRecepcion', { params }).pipe(retry(1), catchError(this.handleError));
+    return this.http.get<RecepcionModel[]>(ip + this.apiUrl + 'GetTablaRecepcion', { params });//.pipe(retry(1), catchError(this.handleError));
   }
 
   handleError(error: any) {
