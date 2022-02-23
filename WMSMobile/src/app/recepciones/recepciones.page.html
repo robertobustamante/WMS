@@ -1,0 +1,202 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>{{ folder }} - {{ tarima }}</ion-title>
+    <ion-buttons slot="secondary">
+      <ion-button (click)="cambiarLock()">
+        <ion-icon slot="icon-only" name="{{ lockState }}"></ion-icon>
+      </ion-button>
+      <ion-button>
+        <ion-icon slot="icon-only" name="print"></ion-icon>
+      </ion-button>
+      <ion-button>
+        <ion-icon slot="icon-only" name="ellipsis-vertical"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-card>
+    <ion-accordion-group>
+      <ion-accordion value="colors">
+        <ion-item slot="header">
+          <ion-label position="floating">Etiqueta</ion-label>
+          <ion-input (keydown.enter)="buscarCodigo($event.target)"></ion-input>
+        </ion-item>
+
+        <ion-list slot="content">
+          <ion-item>
+            <ion-grid>
+              <ion-row class="thead">
+                <ion-col>Secuencia</ion-col>
+                <ion-col>Tarima</ion-col>
+                <ion-col>Cant Men</ion-col>
+                <ion-col>Cant May</ion-col>
+                <ion-col>Recibe</ion-col>
+              </ion-row>
+              <div class="div-center" *ngIf="loading">
+                <div class="progress-bar" >
+                  <div class="circle border">
+                  </div>
+                </div>
+              </div>
+              <ng-container *ngIf="!loading && (!tarimasPorRecepcionData || tarimasPorRecepcionData.length < 1)">
+                <div class="text-center text-muted">
+                  <h2>No hay elementos por mostrar</h2>
+                </div>
+              </ng-container>
+              <ng-container>
+                <ion-row *ngFor="let tarimas of tarimasPorRecepcionData; let i = index">
+                  <ion-col>{{tarimas.SECUENCIA_ID}}</ion-col>
+                  <ion-col>{{ tarimas.TARIMA_ID }}</ion-col>
+                  <ion-col>{{ tarimas.CANTIDAD_MEN_RECEPCION }}</ion-col>
+                  <ion-col>{{ tarimas.CANTIDAD_MAY_RECEPCION }}</ion-col>
+                  <ion-col>{{ tarimas.ASIGNADO_A }}</ion-col>
+                </ion-row>
+              </ng-container>
+            </ion-grid>
+          </ion-item>
+        </ion-list>
+      </ion-accordion>
+    </ion-accordion-group>
+
+    <ion-item>
+      <ion-label>Seleccionar lado:</ion-label>
+      <ion-button (click)="cambiarFocoBoton('A')" size="large" color="{{ buttonA }}">A</ion-button>
+      <ion-button (click)="cambiarFocoBoton('B')" size="large" color="{{ buttonB }}">B</ion-button>
+      <ion-button (click)="cambiarFocoBoton('C')" size="large" color="{{ buttonC }}">C</ion-button>
+      <ion-button (click)="cambiarFocoBoton('D')" size="large" color="{{ buttonD }}">D</ion-button>
+    </ion-item>
+  </ion-card>
+
+  <ion-card>
+    <ion-item>
+      <ion-grid>
+        <ion-row style="padding: 0px;">
+          <ion-col [ngClass]="classLadoA">Lado A</ion-col>
+          <ion-col [ngClass]="classLadoB">Lado B</ion-col>
+          <ion-col [ngClass]="classLadoC">Lado C</ion-col>
+          <ion-col [ngClass]="classLadoD">Lado D</ion-col>
+        </ion-row>
+        <ion-row class="thead">
+          <ion-col>Sec</ion-col><ion-col>Cant. Menor</ion-col><ion-col>Desc.</ion-col><ion-col>Sec</ion-col><ion-col>Cant. Menor</ion-col><ion-col>Desc.</ion-col><ion-col>Sec</ion-col><ion-col>Cant. Menor</ion-col><ion-col>Desc</ion-col><ion-col>Sec</ion-col><ion-col>Cant. Menor</ion-col><ion-col>Desc.</ion-col>
+        </ion-row>
+        <div class="div-center" *ngIf="loading">
+          <div class="progress-bar" >
+            <div class="circle border">
+            </div>
+          </div>
+        </div>
+        <ng-container *ngIf="!loading && (!detalleLadosTarimaData || detalleLadosTarimaData.length < 1)">
+          <div class="text-center text-muted">
+            <h2>No hay elementos por mostrar</h2>
+          </div>
+        </ng-container>
+        <ng-container>
+          <ion-row *ngFor="let lados of detalleLadosTarimaData; let i = index">
+            <ion-col>{{ lados.SECUENCIA_A }}</ion-col>
+            <ion-col>{{ lados.CANTIDAD_MEN_A }}</ion-col>
+            <ion-col class="endOfLado">{{ lados.MATERIAL_A }}</ion-col>
+
+            <ion-col>{{ lados.SECUENCIA_B }}</ion-col>
+            <ion-col>{{ lados.CANTIDAD_MEN_B }}</ion-col>
+            <ion-col class="endOfLado">{{ lados.MATERIAL_B }}</ion-col>
+
+            <ion-col>{{ lados.SECUENCIA_C }}</ion-col>
+            <ion-col>{{ lados.CANTIDAD_MEN_C }}</ion-col>
+            <ion-col class="endOfLado">{{ lados.MATERIAL_C }}</ion-col>
+
+            <ion-col>{{ lados.SECUENCIA_D }}</ion-col>
+            <ion-col>{{ lados.CANTIDAD_MEN_D }}</ion-col>
+            <ion-col>{{ lados.MATERIAL_D }}</ion-col>
+          </ion-row>
+        </ng-container>
+        <ion-row *ngIf="detalleLadosTarimaData" class="totales">
+          <ion-col>Total</ion-col>
+          <ion-col>60</ion-col>
+          <ion-col></ion-col>
+          <ion-col>Total</ion-col>
+          <ion-col>60</ion-col>
+          <ion-col></ion-col>
+          <ion-col>Total</ion-col>
+          <ion-col>60</ion-col>
+          <ion-col></ion-col>
+          <ion-col>Total</ion-col>
+          <ion-col>60</ion-col>
+          <ion-col></ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-item>
+    <div style="text-align: right;">
+      <ion-button shape="round" (click)="presentAlertPrompt()">Agregar</ion-button>
+    </div>
+  </ion-card>
+
+  <ion-card>
+    <ion-accordion-group value="colors">
+      <ion-accordion value="colors">
+        <ion-item slot="header">
+          <ion-label>Totales por material:</ion-label>
+
+        </ion-item>
+
+        <ion-list slot="content">
+          <ion-item>
+            <ion-grid>
+              <ion-row class="thead">
+                <ion-col>Material</ion-col>
+                <ion-col>Material</ion-col>
+                <ion-col>Cant May</ion-col>
+                <ion-col>Cant Men</ion-col>
+
+                <ion-col>Cant May R</ion-col>
+                <ion-col>Cant Men R</ion-col>
+                <ion-col>Kgs</ion-col>
+              </ion-row>
+              <div class="div-center" *ngIf="loading">
+                <div class="progress-bar" >
+                  <div class="circle border">
+                  </div>
+                </div>
+              </div>
+              <ng-container *ngIf="!loading && (!detalleProductosTarimaData || detalleProductosTarimaData.length < 1)">
+                <div class="text-center text-muted">
+                  <h2>No hay elementos por mostrar</h2>
+                </div>
+              </ng-container>
+              <ng-container>
+                <ion-row *ngFor="let producto of detalleProductosTarimaData; let i = index">
+                  <ion-col>{{ producto.SECUENCIA_ID }}</ion-col>
+                  <ion-col>{{ producto.MATERIAL_DESC }}</ion-col>
+                  <ion-col>{{ producto.CANTIDAD_MAY_REMFACT }}</ion-col>
+                  <ion-col>{{ producto.CANTIDAD_MEN_REMFACT }}</ion-col>
+
+                  <ion-col>{{producto.CANTIDAD_MAY_RECEPCION}} {{ producto.UNIDAD_MAYOR_DESC }}</ion-col>
+                  <ion-col>{{producto.CANTIDAD_MEN_RECEPCION}} {{ producto.UNIDAD_MENOR_DESC }}</ion-col>
+                  <ion-col>{{producto.CANTIDAD_RECEPCION}}</ion-col>
+                </ion-row>
+              </ng-container>
+              <ion-row *ngIf="detalleProductosTarimaData" class="totales">
+                <ion-col></ion-col>
+                <ion-col>Totales</ion-col>
+                <ion-col>60.00</ion-col>
+                <ion-col>1500.00</ion-col>
+                <ion-col>1500.00</ion-col>
+                <ion-col>9</ion-col>
+                <ion-col>276</ion-col>
+              </ion-row>
+            </ion-grid>
+          </ion-item>
+        </ion-list>
+      </ion-accordion>
+    </ion-accordion-group>
+  </ion-card>
+</ion-content>
+<ion-footer>
+  <ion-toolbar>
+    <ion-title>Cant May: 20.00 Cant Men: 5</ion-title>
+  </ion-toolbar>
+</ion-footer>

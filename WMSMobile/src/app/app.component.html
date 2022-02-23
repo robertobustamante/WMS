@@ -1,0 +1,35 @@
+<ion-app>
+  <ion-split-pane contentId="main-content" disabled="true">
+    <ion-menu contentId="main-content" type="overlay">
+      <ion-content>
+        <ion-list id="inbox-list">
+          <ion-list-header>Recepciones v2.0</ion-list-header>
+          <ion-note>Almacenista</ion-note>
+
+          <ion-menu-toggle auto-hide="false">
+            <ion-item routerDirection="root" [routerLink]="'/page'" lines="none" detail="false" routerLinkActive="selected">
+              <ion-icon slot="start" [ios]="'document-outline'" [md]="'document-sharp'"></ion-icon>
+              <ion-label>Almacen</ion-label>
+            </ion-item>
+            <ion-accordion-group value="menus">
+              <ion-accordion value="menus">
+                <ion-item slot="header" routerDirection="root" [routerLink]="'/compras'" lines="none" detail="false" routerLinkActive="selected">
+                  <ion-icon slot="start" [ios]="'document-outline'" [md]="'document-sharp'"></ion-icon>
+                  <ion-label>Compras</ion-label>
+                </ion-item>
+                <ion-list slot="content">
+                  <ion-item routerDirection="root" style="padding-left: 20px;" [routerLink]="'/recepciones'" lines="none" detail="false" routerLinkActive="selected">
+                    <ion-icon slot="start" [ios]="'cube-outline'" [md]="'cube-sharp'"></ion-icon>
+                    <ion-label>Recepcion</ion-label>
+                  </ion-item>
+                </ion-list>
+              </ion-accordion>
+            </ion-accordion-group>
+          </ion-menu-toggle>
+
+        </ion-list>
+      </ion-content>
+    </ion-menu>
+    <ion-router-outlet id="main-content"></ion-router-outlet>
+  </ion-split-pane>
+</ion-app>

@@ -1,0 +1,291 @@
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\WMS_Api_Library.dll.config
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\WMS_Api_Library.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\WMS_Api_Library.pdb
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\Microsoft.Win32.Primitives.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\netstandard.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.AppContext.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.Collections.Concurrent.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.Collections.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.Collections.NonGeneric.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.Collections.Specialized.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.ComponentModel.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.ComponentModel.EventBasedAsync.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.ComponentModel.Primitives.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.ComponentModel.TypeConverter.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.Console.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.Data.Common.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.Diagnostics.Contracts.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.Diagnostics.Debug.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.Diagnostics.Process.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.Diagnostics.StackTrace.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.Diagnostics.Tools.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.Diagnostics.TraceSource.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.Diagnostics.Tracing.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.Drawing.Primitives.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.Dynamic.Runtime.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.Globalization.Calendars.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.Globalization.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.Globalization.Extensions.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.IO.Compression.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.IO.Compression.ZipFile.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.IO.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.IO.FileSystem.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.IO.FileSystem.DriveInfo.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.IO.FileSystem.Primitives.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.IO.FileSystem.Watcher.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.IO.IsolatedStorage.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.IO.MemoryMappedFiles.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.IO.Pipes.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.IO.UnmanagedMemoryStream.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.Linq.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.Linq.Expressions.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.Linq.Parallel.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.Linq.Queryable.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.Net.Http.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.Net.NameResolution.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.Net.NetworkInformation.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.Net.Ping.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.Net.Primitives.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.Net.Requests.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.Net.Security.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.Net.Sockets.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.Net.WebHeaderCollection.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.Net.WebSockets.Client.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.Net.WebSockets.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.ObjectModel.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.Reflection.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.Reflection.Extensions.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.Reflection.Primitives.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.Resources.Reader.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.Resources.ResourceManager.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.Resources.Writer.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.Runtime.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.Runtime.Extensions.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.Runtime.Handles.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.Runtime.InteropServices.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.Runtime.Numerics.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.Runtime.Serialization.Formatters.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.Runtime.Serialization.Json.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.Runtime.Serialization.Primitives.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.Runtime.Serialization.Xml.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.Security.Claims.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.Security.Cryptography.Algorithms.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.Security.Cryptography.Csp.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.Security.Cryptography.Encoding.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.Security.Cryptography.Primitives.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.Security.Principal.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.Security.SecureString.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.Text.Encoding.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.Text.Encoding.Extensions.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.Text.RegularExpressions.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.Threading.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.Threading.Overlapped.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.Threading.Tasks.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.Threading.Tasks.Parallel.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.Threading.Thread.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.Threading.ThreadPool.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.Threading.Timer.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.ValueTuple.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.Xml.ReaderWriter.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.Xml.XDocument.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.Xml.XmlDocument.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.Xml.XmlSerializer.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.Xml.XPath.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.Xml.XPath.XDocument.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\Microsoft.AspNetCore.Http.Extensions.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\Microsoft.Net.Http.Headers.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.Buffers.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.Memory.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.Web.Cors.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.Web.Http.Cors.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.Web.Http.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\Microsoft.AspNetCore.Http.Abstractions.xml
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\Microsoft.AspNetCore.Http.Extensions.xml
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\Microsoft.AspNetCore.Http.Features.xml
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.xml
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\Microsoft.Extensions.Options.xml
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\Microsoft.Net.Http.Headers.xml
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.Buffers.xml
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.Memory.xml
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.Web.Http.xml
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\System.Web.Http.Cors.xml
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\es\System.Net.Http.Formatting.resources.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\bin\Debug\es\System.Web.Http.resources.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\obj\Debug\WMS_Api_Library.csprojAssemblyReference.cache
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\obj\Debug\WMS_Api_Library.csproj.CoreCompileInputs.cache
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\obj\Debug\WMS_Api_Library.csproj.CopyComplete
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\obj\Debug\WMS_Api_Library.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMS_Api_Library\obj\Debug\WMS_Api_Library.pdb
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\WMS_Api_Library.dll.config
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\WMS_Api_Library.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\WMS_Api_Library.pdb
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\Microsoft.Win32.Primitives.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\netstandard.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.AppContext.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.Collections.Concurrent.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.Collections.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.Collections.NonGeneric.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.Collections.Specialized.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.ComponentModel.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.ComponentModel.EventBasedAsync.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.ComponentModel.Primitives.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.ComponentModel.TypeConverter.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.Console.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.Data.Common.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.Diagnostics.Contracts.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.Diagnostics.Debug.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.Diagnostics.Process.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.Diagnostics.StackTrace.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.Diagnostics.Tools.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.Diagnostics.TraceSource.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.Diagnostics.Tracing.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.Drawing.Primitives.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.Dynamic.Runtime.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.Globalization.Calendars.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.Globalization.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.Globalization.Extensions.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.IO.Compression.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.IO.Compression.ZipFile.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.IO.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.IO.FileSystem.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.IO.FileSystem.DriveInfo.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.IO.FileSystem.Primitives.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.IO.FileSystem.Watcher.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.IO.IsolatedStorage.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.IO.MemoryMappedFiles.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.IO.Pipes.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.IO.UnmanagedMemoryStream.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.Linq.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.Linq.Expressions.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.Linq.Parallel.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.Linq.Queryable.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.Net.Http.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.Net.NameResolution.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.Net.NetworkInformation.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.Net.Ping.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.Net.Primitives.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.Net.Requests.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.Net.Security.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.Net.Sockets.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.Net.WebHeaderCollection.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.Net.WebSockets.Client.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.Net.WebSockets.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.ObjectModel.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.Reflection.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.Reflection.Extensions.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.Reflection.Primitives.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.Resources.Reader.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.Resources.ResourceManager.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.Resources.Writer.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.Runtime.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.Runtime.Extensions.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.Runtime.Handles.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.Runtime.InteropServices.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.Runtime.Numerics.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.Runtime.Serialization.Formatters.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.Runtime.Serialization.Json.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.Runtime.Serialization.Primitives.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.Runtime.Serialization.Xml.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.Security.Claims.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.Security.Cryptography.Algorithms.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.Security.Cryptography.Csp.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.Security.Cryptography.Encoding.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.Security.Cryptography.Primitives.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.Security.Principal.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.Security.SecureString.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.Text.Encoding.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.Text.Encoding.Extensions.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.Text.RegularExpressions.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.Threading.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.Threading.Overlapped.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.Threading.Tasks.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.Threading.Tasks.Parallel.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.Threading.Thread.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.Threading.ThreadPool.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.Threading.Timer.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.ValueTuple.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.Xml.ReaderWriter.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.Xml.XDocument.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.Xml.XmlDocument.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.Xml.XmlSerializer.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.Xml.XPath.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.Xml.XPath.XDocument.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\Microsoft.AspNetCore.Http.Extensions.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\Microsoft.Net.Http.Headers.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.Buffers.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.Memory.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.Web.Cors.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.Web.Http.Cors.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.Web.Http.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\Microsoft.AspNetCore.Http.Abstractions.xml
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\Microsoft.AspNetCore.Http.Extensions.xml
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\Microsoft.AspNetCore.Http.Features.xml
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.xml
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\Microsoft.Extensions.Options.xml
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\Microsoft.Net.Http.Headers.xml
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.Buffers.xml
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.Memory.xml
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.Web.Http.xml
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\System.Web.Http.Cors.xml
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\es\System.Net.Http.Formatting.resources.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\bin\Debug\es\System.Web.Http.resources.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\obj\Debug\WMS_Api_Library.csproj.CoreCompileInputs.cache
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\obj\Debug\WMS_Api_Library.csproj.CopyComplete
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\obj\Debug\WMS_Api_Library.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMS_Api_Library\obj\Debug\WMS_Api_Library.pdb

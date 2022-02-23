@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "WMSMobile",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}

@@ -1,0 +1,54 @@
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMSApi\bin\Debug\netcoreapp2.2\WMSApi.deps.json
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMSApi\bin\Debug\netcoreapp2.2\WMSApi.runtimeconfig.json
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMSApi\bin\Debug\netcoreapp2.2\WMSApi.runtimeconfig.dev.json
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMSApi\bin\Debug\netcoreapp2.2\WMSApi.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMSApi\obj\Debug\netcoreapp2.2\WMSApi.csprojAssemblyReference.cache
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMSApi\obj\Debug\netcoreapp2.2\WMSApi.csproj.CoreCompileInputs.cache
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMSApi\obj\Debug\netcoreapp2.2\WMSApi.RazorAssemblyInfo.cache
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMSApi\obj\Debug\netcoreapp2.2\WMSApi.RazorAssemblyInfo.cs
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMSApi\obj\Debug\netcoreapp2.2\WMSApi.AssemblyInfoInputs.cache
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMSApi\obj\Debug\netcoreapp2.2\WMSApi.AssemblyInfo.cs
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMSApi\obj\Debug\netcoreapp2.2\WMSApi.RazorTargetAssemblyInfo.cache
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMSApi\bin\Debug\netcoreapp2.2\WMSApi.pdb
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMSApi\obj\Debug\netcoreapp2.2\WMSApi.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMSApi\obj\Debug\netcoreapp2.2\WMSApi.pdb
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMSApi\bin\Debug\netcoreapp2.2\WMS_Api_Library.dll
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMSApi\bin\Debug\netcoreapp2.2\WMS_Api_Library.pdb
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMSApi\bin\Debug\netcoreapp2.2\WMS_Api_Library.dll.config
+C:\Users\Carlo\Desktop\WMS_Apiv2\WMSApi\obj\Debug\netcoreapp2.2\WMSApi.csproj.CopyComplete
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMSApi\bin\Debug\netcoreapp2.2\WMSApi.deps.json
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMSApi\bin\Debug\netcoreapp2.2\WMSApi.runtimeconfig.json
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMSApi\bin\Debug\netcoreapp2.2\WMSApi.runtimeconfig.dev.json
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMSApi\bin\Debug\netcoreapp2.2\WMSApi.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMSApi\bin\Debug\netcoreapp2.2\WMSApi.pdb
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMSApi\bin\Debug\netcoreapp2.2\WMS_Api_Library.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMSApi\bin\Debug\netcoreapp2.2\WMS_Api_Library.pdb
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMSApi\bin\Debug\netcoreapp2.2\WMS_Api_Library.dll.config
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMSApi\obj\Debug\netcoreapp2.2\WMSApi.csprojAssemblyReference.cache
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMSApi\obj\Debug\netcoreapp2.2\WMSApi.csproj.CoreCompileInputs.cache
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMSApi\obj\Debug\netcoreapp2.2\WMSApi.RazorAssemblyInfo.cache
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMSApi\obj\Debug\netcoreapp2.2\WMSApi.RazorAssemblyInfo.cs
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMSApi\obj\Debug\netcoreapp2.2\WMSApi.AssemblyInfoInputs.cache
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMSApi\obj\Debug\netcoreapp2.2\WMSApi.AssemblyInfo.cs
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMSApi\obj\Debug\netcoreapp2.2\WMSApi.RazorTargetAssemblyInfo.cache
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMSApi\obj\Debug\netcoreapp2.2\WMSApi.csproj.CopyComplete
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMSApi\obj\Debug\netcoreapp2.2\WMSApi.dll
+C:\Users\Roberto Bustamante\Desktop\WMS_Api\WMSApi\obj\Debug\netcoreapp2.2\WMSApi.pdb
+C:\Users\Roberto Bustamante\Desktop\WMS\WMS_Api\WMSApi\bin\Debug\netcoreapp2.2\WMSApi.deps.json
+C:\Users\Roberto Bustamante\Desktop\WMS\WMS_Api\WMSApi\bin\Debug\netcoreapp2.2\WMSApi.runtimeconfig.json
+C:\Users\Roberto Bustamante\Desktop\WMS\WMS_Api\WMSApi\bin\Debug\netcoreapp2.2\WMSApi.runtimeconfig.dev.json
+C:\Users\Roberto Bustamante\Desktop\WMS\WMS_Api\WMSApi\bin\Debug\netcoreapp2.2\WMSApi.dll
+C:\Users\Roberto Bustamante\Desktop\WMS\WMS_Api\WMSApi\bin\Debug\netcoreapp2.2\WMSApi.pdb
+C:\Users\Roberto Bustamante\Desktop\WMS\WMS_Api\WMSApi\bin\Debug\netcoreapp2.2\WMS_Api_Library.dll
+C:\Users\Roberto Bustamante\Desktop\WMS\WMS_Api\WMSApi\bin\Debug\netcoreapp2.2\WMS_Api_Library.pdb
+C:\Users\Roberto Bustamante\Desktop\WMS\WMS_Api\WMSApi\bin\Debug\netcoreapp2.2\WMS_Api_Library.dll.config
+C:\Users\Roberto Bustamante\Desktop\WMS\WMS_Api\WMSApi\obj\Debug\netcoreapp2.2\WMSApi.csprojAssemblyReference.cache
+C:\Users\Roberto Bustamante\Desktop\WMS\WMS_Api\WMSApi\obj\Debug\netcoreapp2.2\WMSApi.csproj.CoreCompileInputs.cache
+C:\Users\Roberto Bustamante\Desktop\WMS\WMS_Api\WMSApi\obj\Debug\netcoreapp2.2\WMSApi.RazorAssemblyInfo.cache
+C:\Users\Roberto Bustamante\Desktop\WMS\WMS_Api\WMSApi\obj\Debug\netcoreapp2.2\WMSApi.RazorAssemblyInfo.cs
+C:\Users\Roberto Bustamante\Desktop\WMS\WMS_Api\WMSApi\obj\Debug\netcoreapp2.2\WMSApi.AssemblyInfoInputs.cache
+C:\Users\Roberto Bustamante\Desktop\WMS\WMS_Api\WMSApi\obj\Debug\netcoreapp2.2\WMSApi.AssemblyInfo.cs
+C:\Users\Roberto Bustamante\Desktop\WMS\WMS_Api\WMSApi\obj\Debug\netcoreapp2.2\WMSApi.RazorTargetAssemblyInfo.cache
+C:\Users\Roberto Bustamante\Desktop\WMS\WMS_Api\WMSApi\obj\Debug\netcoreapp2.2\WMSApi.csproj.CopyComplete
+C:\Users\Roberto Bustamante\Desktop\WMS\WMS_Api\WMSApi\obj\Debug\netcoreapp2.2\WMSApi.dll
+C:\Users\Roberto Bustamante\Desktop\WMS\WMS_Api\WMSApi\obj\Debug\netcoreapp2.2\WMSApi.pdb

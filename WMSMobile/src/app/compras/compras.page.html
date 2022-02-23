@@ -1,0 +1,104 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Compras</ion-title>
+    <ion-buttons slot="secondary">
+      <ion-button id="trigger-button">
+        <ion-icon slot="icon-only" name="cog"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-popover trigger="trigger-button">
+    <ng-template>
+      <ion-content>
+        <ion-list>
+          <ion-item [button]="true" [detail]="false" (click)="configuracionIp()">
+            <ion-label>Configuracion IP</ion-label>
+          </ion-item>
+        </ion-list>
+      </ion-content>
+    </ng-template>
+  </ion-popover>
+
+  <ion-card>
+    <ion-grid id="tblCompras" >
+      <ion-row class="thead">
+        <ion-col>COMPRA</ion-col>
+        <ion-col>PROVEEDOR</ion-col>
+        <ion-col>ESTATUS</ion-col>
+        <ion-col>CANT MAY FACT</ion-col>
+        <ion-col>CANT MEN FACT</ion-col>
+        <ion-col>CANT MEN REC</ion-col>
+      </ion-row>
+      <div class="div-center" *ngIf="loading">
+        <div class="progress-bar" >
+          <div class="circle border">
+          </div>
+        </div>
+      </div>
+      <ng-container *ngIf="!loading && (!comprasData || comprasData.length < 1)">
+        <div class="text-center text-muted">
+          <h2>No hay elementos por mostrar</h2>
+        </div>
+      </ng-container>
+      <ng-container>
+        <ion-row *ngFor="let compras of comprasData; let i = index" (click)="cambiarCompra(compras.FOLIO, i)" [class.selected]="i === currentComprasSelected">
+          <ion-col>{{ compras.FOLIO }}</ion-col>
+          <ion-col>{{ compras.PROVEEDOR_NOMBRE }}</ion-col>
+          <ion-col>{{ compras.ESTATUS_DESC }}</ion-col>
+          <ion-col>{{ compras.CANTIDAD_MEN_SOLICTADO }}</ion-col>
+          <ion-col>{{ compras.CANTIDAD_MEN_RECEPCION }}</ion-col>
+          <ion-col>{{ compras.CANT_MEN_PENDIENTE }}</ion-col>
+        </ion-row>
+      </ng-container>
+    </ion-grid>
+  </ion-card>
+  <ion-card>
+    <ion-item>
+      <ion-label>Recepcion</ion-label>
+      <div style="text-align: right;">
+        <ion-button size="large" [disabled]="btnDisabled" [routerLink]="['/recepciones', selectedIdRecepcion]">
+          <ion-icon src='data:image/svg+xml;utf8,<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="forklift" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" class="svg-inline--fa fa-forklift fa-w-20 fa-9x"><path fill="currentColor" d="M624 384h-80V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v416c0 8.8 7.2 16 16 16h128c8.8 0 16-7.2 16-16v-32c0-8.8-7.2-16-16-16zM416 237.1c0-8.7-1.8-17.2-5.2-25.2L332.5 29.1C324.9 11.4 307.6 0 288.3 0H144c-26.5 0-48 21.5-48 48v112H48c-26.5 0-48 21.5-48 48v208c0 53 43 96 96 96s96-43 96-96h64c0 53 43 96 96 96s96-43 96-96c0-28.3-12.5-53.5-32-71.1V237.1zM96 464c-26.5 0-48-21.5-48-48s21.5-48 48-48 48 21.5 48 48-21.5 48-48 48zm160-208l-96-96V64h117.8L352 237.1V256h-96zm96 208c-26.5 0-48-21.5-48-48s21.5-48 48-48 48 21.5 48 48-21.5 48-48 48z" class=""></path></svg>'></ion-icon>
+        </ion-button>
+      </div>
+    </ion-item>
+    <ion-grid>
+      <ion-row class="thead">
+        <ion-col>Recepcion</ion-col>
+        <ion-col>Estatus</ion-col>
+        <ion-col>Cant Tarimas</ion-col>
+        <ion-col>Cant May Fact</ion-col>
+        <ion-col>Cant Men Fact</ion-col>
+        <ion-col>Cant May Rec</ion-col>
+        <ion-col>Cant Men Rec</ion-col>
+      </ion-row>
+      <div class="div-center" *ngIf="loading">
+        <div class="progress-bar" >
+          <div class="circle border">
+          </div>
+        </div>
+      </div>
+      <ng-container *ngIf="!loading && (!recepcionData || recepcionData.length < 1)">
+        <div class="text-center text-muted">
+          <h2>No hay elementos por mostrar</h2>
+        </div>
+      </ng-container>
+      <ng-container>
+        <ion-row *ngFor="let recepcion of recepcionData; let i = index" (click)="recepcionSelected(i)" [class.selected]="i === currentRecepcionSelected">
+          <ion-col>{{recepcion.RECEPCION}}</ion-col>
+          <ion-col>{{recepcion.ESTATUS_DESC}}</ion-col>
+          <ion-col>{{recepcion.CANTIDAD_TARIMAS}}</ion-col>
+          <ion-col>{{recepcion.CANTIDAD_MAY_REMFACT}}</ion-col>
+          <ion-col>{{recepcion.CANTIDAD_MEN_REMFACT}}</ion-col>
+          <ion-col>{{recepcion.CANTIDAD_MAY_RECEPCION}}</ion-col>
+          <ion-col>{{recepcion.CANTIDAD_MEN_RECEPCION}}</ion-col>
+        </ion-row>
+      </ng-container>
+    </ion-grid>
+  </ion-card>
+</ion-content>
