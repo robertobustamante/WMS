@@ -49,6 +49,7 @@ export class RecepcionesPage implements OnInit {
       this.idOrdenRecepcion = 1;
     }
     this.loading = true;
+    debugger;
     this.subscription.add(this.recepcionesService.getTarimaAbierta(6, 1, this.idOrdenRecepcion, 1).subscribe(dtTA =>
       {
         this.selectedTarima = dtTA[0].TARIMA_ID;
