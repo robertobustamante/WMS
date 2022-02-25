@@ -1,9 +1,9 @@
 export interface TarimaAbierta {
-  OPERACION: number;
-  PLANTA_ID: string;
-  ORDEN_COMPRA_RECEPCION_ID: number,
-  SECUENCIA_ID: number,
-  TARIMA_ID: string,
-  ESTATUS: number,
-  USUARIO_ASIGNACION_ID: string
+  operacion: number;
+  planta_id: string;
+  orden_compra_recepcion_id: number,
+  secuencia_id: number,
+  tarima_id: string,
+  estatus: number,
+  usuario_asignacion_id: string
 }

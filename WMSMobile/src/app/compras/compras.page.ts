@@ -17,8 +17,6 @@ export class ComprasPage implements OnInit, OnDestroy {
   recepcionData: RecepcionModel[];
   loading: boolean;
   hostIp: string;
-  enableCors: boolean = true;
-  enableEncode: boolean = false;
   btnDisabled = true;
   currentComprasSelected = 0;
   currentRecepcionSelected = -1;
@@ -43,18 +41,6 @@ export class ComprasPage implements OnInit, OnDestroy {
           placeholder: 'api Url',
           value: this.hostIp
         },
-        {
-          name: 'enableCors',
-          type: 'checkbox',
-          label: 'Habilitar Cors',
-          checked: this.enableCors
-        },
-        {
-          name: 'enableEncode',
-          type: 'checkbox',
-          label: 'Habilitar Encode',
-          checked: this.enableEncode
-        }
       ],
       buttons: [
         {
@@ -80,7 +66,7 @@ export class ComprasPage implements OnInit, OnDestroy {
   buscar() {
     try {
       this.loading = true;
-      this.subscription.add(this.comprasService.getOrdenCompra(this.hostIp, 6).subscribe(data => {
+      this.subscription.add(this.comprasService.getOrdenCompra(this.hostIp, 1).subscribe(data => {
         this.comprasData = data;
         this.loading = false;
       }));

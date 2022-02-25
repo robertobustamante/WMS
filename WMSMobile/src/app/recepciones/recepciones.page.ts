@@ -7,6 +7,7 @@ import { TarimasPorRecepcion } from '../Models/TarimasPorRecepcion.model';
 import { DetalleLadosTarimaModel } from '../Models/DetalleLadosTarima.model';
 import { DetalleProductoTarima } from '../Models/DetalleProductoTarima.model';
 import { CodigoBarras } from '../Models/CodigoBarras.model';
+import { environment } from 'src/environments/environment';
 
 @Component({
   selector: 'app-recepciones',
@@ -38,43 +39,80 @@ export class RecepcionesPage implements OnInit {
   detalleProductosTarimaData: DetalleProductoTarima[];
   buscarCodigoResponse: CodigoBarras;
   loading: boolean;
+  hostIp: string;
 
   private subscription: Subscription = new Subscription();
   constructor(private activatedRoute: ActivatedRoute, private recepcionesService: RecepcionesService,private alertController: AlertController) {
   }
 
   ngOnInit() {
+    this.hostIp = environment.apiUrl;
+    this.buscar();
+  }
+  async configuracionIp() {
+    const alert = await this.alertController.create({
+      cssClass: 'my-custom-class',
+      header: 'Configuracion IP',
+      inputs: [
+        {
+          name: 'apiUrl',
+          type: 'text',
+          placeholder: 'api Url',
+          value: this.hostIp
+        },
+      ],
+      buttons: [
+        {
+          text: 'Cancel',
+          role: 'cancel',
+          cssClass: 'secondary',
+          handler: () => {
+            console.log('Confirm Cancel');
+          }
+        }, {
+          text: 'Ok',
+          handler: data => {
+            this.hostIp = data.apiUrl;
+            this.buscar()
+          }
+        }
+      ]
+    });
+
+    await alert.present();
+  }
+
+  buscar() {
     this.idOrdenRecepcion = this.activatedRoute.snapshot.paramMap.get('id');
     if(!this.idOrdenRecepcion) {
       this.idOrdenRecepcion = 1;
     }
     this.loading = true;
-    debugger;
-    this.subscription.add(this.recepcionesService.getTarimaAbierta(6, 1, this.idOrdenRecepcion, 1).subscribe(dtTA =>
+    this.subscription.add(this.recepcionesService.getTarimaAbierta(this.hostIp, 1, this.idOrdenRecepcion, 1).subscribe(dtTA =>
       {
-        this.selectedTarima = dtTA[0].TARIMA_ID;
-        if(dtTA[0].ESTATUS == 0) {
+        this.selectedTarima = dtTA[0].tarima_id;
+        if(dtTA[0].estatus == 0) {
           this.lockState = 'lock-open';
-        } else if(dtTA[0].ESTATUS == 1) {
+        } else if(dtTA[0].estatus == 1) {
           this.lockState = 'lock-closed';
         }
 
-        this.subscription.add(this.recepcionesService.getTarimasPorRecepcion(8,1,this.idOrdenRecepcion).subscribe(dtTR => {
+        this.subscription.add(this.recepcionesService.getTarimasPorRecepcion(this.hostIp, 1,this.idOrdenRecepcion).subscribe(dtTR => {
           this.tarimasPorRecepcionData = dtTR;
         }));
-        this.subscription.add(this.recepcionesService.getDetalleLadosTarima(7,1,this.selectedTarima, this.idOrdenRecepcion).subscribe(dtDLT => {
+        this.subscription.add(this.recepcionesService.getDetalleLadosTarima(this.hostIp, 1,this.selectedTarima, this.idOrdenRecepcion).subscribe(dtDLT => {
+          debugger;
           this.detalleLadosTarimaData = dtDLT;
         }));
-        this.subscription.add(this.recepcionesService.getDetalleProductoPorTarima(9,1,this.selectedTarima, this.idOrdenRecepcion).subscribe(dtDPT => {
+        this.subscription.add(this.recepcionesService.getDetalleProductoPorTarima(this.hostIp,1,this.selectedTarima, this.idOrdenRecepcion).subscribe(dtDPT => {
           this.detalleProductosTarimaData = dtDPT;
         }));
       }));
 
     this.loading = false;
   }
-
   public buscarCodigo(codigo: any) {
-    this.subscription.add(this.recepcionesService.postCodigoBarras(1, this.selectedTarima, this.idOrdenRecepcion, this.ladoSeleccionado, codigo.value, '1456398', 1, 0, 0 ).subscribe(data => {
+    this.subscription.add(this.recepcionesService.postCodigoBarras(this.hostIp, 1, this.selectedTarima, this.idOrdenRecepcion, this.ladoSeleccionado, codigo.value, '1456398', 1, 0, 0 ).subscribe(data => {
       this.buscarCodigoResponse = data;
       if(this.buscarCodigoResponse.HayError) {
         this.presentAlertPrompt();

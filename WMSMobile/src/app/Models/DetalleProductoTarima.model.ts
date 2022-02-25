@@ -1,17 +1,17 @@
 export interface DetalleProductoTarima {
-  OPERACION: number;
-  PLANTA_ID: string;
-  ORDEN_COMPRA_RECEPCION_ID: number,
-  TARIMA_ID: string,
-  SECUENCIA_ID: number,
-  MATERIAL_DESC: string,
-  CANTIDAD_MAY_REMFACT: number,
-  CANTIDAD_MEN_REMFACT: number,
-  UNIDAD_MAYOR_DESC: string,
-  CANTIDAD_MAY_RECEPCION: number,
-  UNIDAD_MENOR_DESC: string,
-  CANTIDAD_MEN_RECEPCION: number,
-  UNIDAD_SISTEMA_DESC: string,
-  CANTIDAD_RECEPCION: string,
-  ASIGNADO_A: string
+  operacion: number;
+  planta_id: string;
+  orden_compra_recepcion_id: number,
+  tarima_id: string,
+  secuencia_id: number,
+  material_desc: string,
+  cantidad_may_remfact: number,
+  cantidad_men_remfact: number,
+  unidad_mayor_desc: string,
+  cantidad_may_recepcion: number,
+  unidad_menor_desc: string,
+  cantidad_men_recepcion: number,
+  unidad_sistema_desc: string,
+  cantidad_recepcion: string,
+  asignado_a: string
 }
