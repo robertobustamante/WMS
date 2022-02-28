@@ -50,20 +50,38 @@ export class RecepcionesService {
       .set('access-control-allow-origin',ip + this.apiUrl);
     return this.http.get<DetalleProductoTarima[]>(ip + this.apiUrl + 'GetTablaDetalleRecepcionMaterial', { params }).pipe(retry(1), catchError(this.handleError));
   }
-
-  postCodigoBarras(ip: string, IdPlanta: any,  IdTarima: any, ordenCompraRecepcion: any, ladoTarima: any, codigoBarras: any, macAddress: any, usuarioModifica: any, material: any, cantidadMenor: any): Observable<CodigoBarras> {
+  getTablaRecepcionMaterial(ip: string, IdPlanta: any, IdOrdenCompra): Observable<any> {
     const params = new HttpParams()
-      .set('pPlanta_id', IdPlanta)
-      .set('pTarima_id', IdTarima)
-      .set('pOrden_Compra_Recepcion_id', ordenCompraRecepcion)
-      .set('pLado_Tarima', ladoTarima)
-      .set('pCodigo_Barras', codigoBarras)
-      .set('pMacAddress', macAddress)
-      .set('pusuario_modifica_id', usuarioModifica)
-      .set('pMaterial', material)
-      .set('pCantidad_Menor', cantidadMenor)
+      .set('idPlanta', IdPlanta)
+      .set('idOrdenCompraRecepcion', IdOrdenCompra)
       .set('access-control-allow-origin',ip + this.apiUrl);
-      return this.http.post<CodigoBarras>(ip + this.apiUrl + 'PostCodigoBarras', { params }).pipe(retry(1), catchError(this.handleError));
+    return this.http.get<any>(ip+this.apiUrl+'GetTablaRecepcionMaterial', { params });
+  }
+  getCodigoBarras(ip: string, IdPlanta: any,  IdTarima: any, ordenCompraRecepcion: any, ladoTarima: any, codigoBarras: any, macAddress: any, usuarioModifica: any, material: any, cantidadMenor: any): Observable<CodigoBarras> {
+    const params = new HttpParams()
+      .set('idPlanta', IdPlanta)
+      .set('idOrdenCompraRecepcion', ordenCompraRecepcion)
+      .set('idTarima', IdTarima)
+      .set('idLado', ladoTarima)
+      .set('idCodigoBarras', codigoBarras)
+      .set('idMacAddress', macAddress)
+      .set('idUsuario', usuarioModifica)
+      .set('idMaterial', material)
+      .set('CantidadMenor', cantidadMenor)
+      .set('access-control-allow-origin',ip + this.apiUrl);
+    return this.http.get<CodigoBarras>(ip + this.apiUrl + 'GetCodigoBarras', { params });//.pipe(retry(1), catchError(this.handleError));
+  }
+  deleteCodigoBarras(ip: string, IdPlanta: any,  IdTarima: any, ordenCompraRecepcion: any, ladoTarima: any, codigoBarras: any, macAddress: any, usuarioModifica: any): Observable<CodigoBarras> {
+    const params = new HttpParams()
+      .set('idPlanta', IdPlanta)
+      .set('idOrdenCompraRecepcion', ordenCompraRecepcion)
+      .set('idTarima', IdTarima)
+      .set('idLado', ladoTarima)
+      .set('idCodigoBarras', codigoBarras)
+      .set('idMacAddress', macAddress)
+      .set('idUsuario', usuarioModifica)
+      .set('access-control-allow-origin',ip + this.apiUrl);
+    return this.http.delete<CodigoBarras>(ip + this.apiUrl + 'DeleteCodigoBarras', { params });//.pipe(retry(1), catchError(this.handleError));
   }
   putEstatusTarima(ip: string, IdPlanta: any, ordenCompraRecepcion: any,  IdTarima: any, usuarioId: any, estatus: any): Observable<EstatusTarima> {
     const params = new HttpParams()

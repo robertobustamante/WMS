@@ -7,6 +7,8 @@ import { TarimasPorRecepcion } from '../Models/TarimasPorRecepcion.model';
 import { DetalleLadosTarimaModel } from '../Models/DetalleLadosTarima.model';
 import { DetalleProductoTarima } from '../Models/DetalleProductoTarima.model';
 import { CodigoBarras } from '../Models/CodigoBarras.model';
+import { ModalController } from '@ionic/angular';
+import { MaterialesPage } from '../materiales/materiales.page';
 import { environment } from 'src/environments/environment';
 
 @Component({
@@ -16,7 +18,8 @@ import { environment } from 'src/environments/environment';
 })
 export class RecepcionesPage implements OnInit {
   public folder = 'Recepciones';
-  public tarima = 'Entrada-25 / Tarima #1A0001 (1)';
+  public entrada = 'Entrada-25';
+  public tarima = 'Tarima #1A0001 (1)';
   public lockState = 'lock-open';
 
   public ladoSeleccionado = 'A';
@@ -39,10 +42,12 @@ export class RecepcionesPage implements OnInit {
   detalleProductosTarimaData: DetalleProductoTarima[];
   buscarCodigoResponse: CodigoBarras;
   loading: boolean;
+  showModalAgregar = false;
+  tipoOperacionCodigoBarras = 'agregar';
   hostIp: string;
 
   private subscription: Subscription = new Subscription();
-  constructor(private activatedRoute: ActivatedRoute, private recepcionesService: RecepcionesService,private alertController: AlertController) {
+  constructor(private activatedRoute: ActivatedRoute, private recepcionesService: RecepcionesService, private modalController: ModalController, private alertController: AlertController) {
   }
 
   ngOnInit() {
@@ -91,6 +96,7 @@ export class RecepcionesPage implements OnInit {
     this.subscription.add(this.recepcionesService.getTarimaAbierta(this.hostIp, 1, this.idOrdenRecepcion, 1).subscribe(dtTA =>
       {
         this.selectedTarima = dtTA[0].tarima_id;
+        this.tarima = 'Tarima #'+ this.selectedTarima + '(1)';
         if(dtTA[0].estatus == 0) {
           this.lockState = 'lock-open';
         } else if(dtTA[0].estatus == 1) {
@@ -100,24 +106,47 @@ export class RecepcionesPage implements OnInit {
         this.subscription.add(this.recepcionesService.getTarimasPorRecepcion(this.hostIp, 1,this.idOrdenRecepcion).subscribe(dtTR => {
           this.tarimasPorRecepcionData = dtTR;
         }));
-        this.subscription.add(this.recepcionesService.getDetalleLadosTarima(this.hostIp, 1,this.selectedTarima, this.idOrdenRecepcion).subscribe(dtDLT => {
-          debugger;
-          this.detalleLadosTarimaData = dtDLT;
-        }));
-        this.subscription.add(this.recepcionesService.getDetalleProductoPorTarima(this.hostIp,1,this.selectedTarima, this.idOrdenRecepcion).subscribe(dtDPT => {
-          this.detalleProductosTarimaData = dtDPT;
-        }));
+        setTimeout(() => {
+          this.subscription.add(this.recepcionesService.getDetalleLadosTarima(this.hostIp, 1,this.selectedTarima, this.idOrdenRecepcion).subscribe(dtDLT => {
+            this.detalleLadosTarimaData = dtDLT;
+          }));
+          this.subscription.add(this.recepcionesService.getDetalleProductoPorTarima(this.hostIp,1,this.selectedTarima, this.idOrdenRecepcion).subscribe(dtDPT => {
+            this.detalleProductosTarimaData = dtDPT;
+          }));
+        }, 200);
       }));
 
     this.loading = false;
   }
   public buscarCodigo(codigo: any) {
-    this.subscription.add(this.recepcionesService.postCodigoBarras(this.hostIp, 1, this.selectedTarima, this.idOrdenRecepcion, this.ladoSeleccionado, codigo.value, '1456398', 1, 0, 0 ).subscribe(data => {
-      this.buscarCodigoResponse = data;
-      if(this.buscarCodigoResponse.HayError) {
-        this.presentAlertPrompt();
-      }
-    }));
+    if(this.tipoOperacionCodigoBarras == 'agregar'){
+      this.subscription.add(this.recepcionesService.getCodigoBarras(this.hostIp, 1, this.selectedTarima.trim(), this.idOrdenRecepcion, this.ladoSeleccionado, codigo.value, '1456398', 1, 0, 0 ).subscribe(data => {
+        this.buscarCodigoResponse = data;
+        if(this.buscarCodigoResponse.hayError || this.buscarCodigoResponse.mensajeRespuesta == "EL PROVEEDOR NO TIENE CONFIGURADO UN MATERIAL") {
+          this.presentModalMateriales();
+        } else {
+          this.subscription.add(this.recepcionesService.getDetalleLadosTarima(this.hostIp, 1,this.selectedTarima, this.idOrdenRecepcion).subscribe(dtDLT => {
+            this.detalleLadosTarimaData = dtDLT;
+          }));
+          this.subscription.add(this.recepcionesService.getDetalleProductoPorTarima(this.hostIp,1,this.selectedTarima, this.idOrdenRecepcion).subscribe(dtDPT => {
+            this.detalleProductosTarimaData = dtDPT;
+          }));
+        }
+      }));
+    } else {
+      this.subscription.add(this.recepcionesService.deleteCodigoBarras(this.hostIp, 1, this.selectedTarima, this.idOrdenRecepcion, this.ladoSeleccionado, codigo.value, '1456398', 1).subscribe(data => {
+        if(data.hayError){
+          this.mensaje('Error', data.mensajeError);
+        } else {
+          this.subscription.add(this.recepcionesService.getDetalleLadosTarima(this.hostIp, 1,this.selectedTarima, this.idOrdenRecepcion).subscribe(dtDLT => {
+            this.detalleLadosTarimaData = dtDLT;
+          }));
+          this.subscription.add(this.recepcionesService.getDetalleProductoPorTarima(this.hostIp,1,this.selectedTarima, this.idOrdenRecepcion).subscribe(dtDPT => {
+            this.detalleProductosTarimaData = dtDPT;
+          }));
+        }
+      }));
+    }
   }
 
   public cambiarLock() {
@@ -126,6 +155,9 @@ export class RecepcionesPage implements OnInit {
     } else {
       this.lockState = 'lock-closed';
     }
+    this.subscription.add(this.recepcionesService.putEstatusTarima(this.hostIp, 1, this.idOrdenRecepcion, this.selectedTarima.trim(), 1, this.lockState === 'lock-closed' ? 1 : 0).subscribe(data => {
+
+    }));
   }
   async cambiarFocoBoton(id) {
     this.ladoSeleccionado = id;
@@ -167,22 +199,27 @@ export class RecepcionesPage implements OnInit {
       this.classLadoD = 'selectedHeader';
     }
   }
-  async presentAlertConfirm() {
+  async presentModalMateriales() {
+    const modal = await this.modalController.create({
+      component: MaterialesPage,
+      cssClass: 'my-custom-class',
+      componentProps: {
+        'idPlanta': 1,
+        'idOrdenCompra': this.idOrdenRecepcion,
+        'ip': this.hostIp
+      }
+    });
+    return await modal.present();
+  }
+  async mensaje(header: string, message: string) {
     const alert = await this.alertController.create({
       cssClass: 'my-custom-class',
-      header: 'Confirmar eliminacion',
-      message: '¿Desea eliminar el elemento seleccionado?',
+      header: header,
+      message: message,
       buttons: [
         {
-          text: 'Cancel',
-          role: 'cancel',
-          cssClass: 'secondary',
-          handler: (blah) => {
-            console.log('Confirm Cancel: blah');
-          }
-        }, {
           text: 'OK',
-          cssClass: 'danger',
+          cssClass: 'secondary',
           handler: () => {
             console.log('Confirm Okay');
           }

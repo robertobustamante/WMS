@@ -3,7 +3,7 @@
     <ion-buttons slot="start">
       <ion-menu-button></ion-menu-button>
     </ion-buttons>
-    <ion-title>{{ folder }} - {{ tarima }}</ion-title>
+    <ion-title>{{ folder }} - {{ entrada }} / {{ tarima }}</ion-title>
     <ion-buttons slot="secondary">
       <ion-button (click)="cambiarLock()">
         <ion-icon slot="icon-only" name="{{ lockState }}"></ion-icon>
@@ -81,6 +81,11 @@
       <ion-button (click)="cambiarFocoBoton('B')" size="large" color="{{ buttonB }}">B</ion-button>
       <ion-button (click)="cambiarFocoBoton('C')" size="large" color="{{ buttonC }}">C</ion-button>
       <ion-button (click)="cambiarFocoBoton('D')" size="large" color="{{ buttonD }}">D</ion-button>
+      <ion-label>Operación</ion-label>
+      <ion-select id="tipoOperacion" placeholder="Operación" value="{{tipoOperacionCodigoBarras}}">
+        <ion-select-option value="agregar">Agregar</ion-select-option>
+        <ion-select-option value="eliminar">Eliminar</ion-select-option>
+      </ion-select>
     </ion-item>
   </ion-card>
 
@@ -126,20 +131,7 @@
             <ion-col class="endOfLado">{{ lados.material_d }}</ion-col>
           </ion-row>
         </ng-container>
-        <ion-row *ngIf="detalleLadosTarimaData" class="totales">
-          <ion-col>Total</ion-col>
-          <ion-col>60</ion-col>
-          <ion-col></ion-col>
-          <ion-col>Total</ion-col>
-          <ion-col>60</ion-col>
-          <ion-col></ion-col>
-          <ion-col>Total</ion-col>
-          <ion-col>60</ion-col>
-          <ion-col></ion-col>
-          <ion-col>Total</ion-col>
-          <ion-col>60</ion-col>
-          <ion-col></ion-col>
-        </ion-row>
+
       </ion-grid>
     </ion-item>
     <div style="text-align: right;">
@@ -191,15 +183,6 @@
                   <ion-col>{{producto.cantidad_recepcion}}</ion-col>
                 </ion-row>
               </ng-container>
-              <ion-row *ngIf="detalleProductosTarimaData" class="totales">
-                <ion-col></ion-col>
-                <ion-col>Totales</ion-col>
-                <ion-col>60.00</ion-col>
-                <ion-col>1500.00</ion-col>
-                <ion-col>1500.00</ion-col>
-                <ion-col>9</ion-col>
-                <ion-col>276</ion-col>
-              </ion-row>
             </ion-grid>
           </ion-item>
         </ion-list>
@@ -207,8 +190,3 @@
     </ion-accordion-group>
   </ion-card>
 </ion-content>
-<ion-footer>
-  <ion-toolbar>
-    <ion-title>Cant May: 20.00 Cant Men: 5</ion-title>
-  </ion-toolbar>
-</ion-footer>

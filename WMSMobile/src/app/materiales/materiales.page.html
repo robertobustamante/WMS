@@ -1,0 +1,24 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Materiales</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <ion-item>
+      <ion-label>Material</ion-label>
+      <ion-select placeholder="Seleccione una opcion">
+        <ion-select-option *ngFor="let material of materiales; let i = index" value="material.material_id">{{material.material_desc}}</ion-select-option>
+      </ion-select>
+    </ion-item>
+    <ion-item>
+      <ion-label>Cantidad</ion-label>
+      <ion-input></ion-input>
+    </ion-item>
+  </ion-card>
+  <ion-item>
+    <ion-button>Agregar</ion-button>
+    <ion-button>Cancelar</ion-button>
+  </ion-item>
+</ion-content>

@@ -6,6 +6,8 @@ import { RecepcionModel } from 'src/app/Models/Recepcion.model';
 import { environment } from 'src/environments/environment';
 import { retry, catchError } from 'rxjs/operators';
 
+import { Http, HttpResponse } from '@capacitor-community/http';
+
 @Injectable({
   providedIn: 'root'
 })
@@ -29,6 +31,18 @@ export class ComprasService {
       .set('folioMicrosip', folio);
 
     return this.http.get<RecepcionModel[]>(ip + this.apiUrl + 'GetTablaRecepcion', { params }).pipe(retry(1), catchError(this.handleError));
+  }
+
+  getNewOrdenCompra(ip: string, IdPlanta: any) {
+    Http.request({ url: `${ip}${this.apiUrl}GetTablaOrdenCompra?idPlanta=${IdPlanta}`, method: 'GET' })
+      .then(async response => {
+        if (response.status === 200) {
+          return await response.data;
+        }
+      })
+      .catch(e => {
+        console.log(e)
+      })
   }
 
   handleError(error: any) {

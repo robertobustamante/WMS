@@ -1,9 +1,9 @@
 export interface CodigoBarras {
-  HayError: boolean;
-  MensajeError: string;
-  Respuesta: boolean;
-  RespuestaLista: string;
-  RespuestaEntidad: [{
+  hayError: boolean;
+  mensajeError: string;
+  respuesta: boolean;
+  respuestaLista: string;
+  respuestaEntidad: [{
     OPERACION: number;
     PLANTA_ID: string;
     ORDEN_COMPRA_RECEPCION_ID: number;
@@ -16,7 +16,7 @@ export interface CodigoBarras {
     CANTIDAD_MEN: number;
     CANTIDAD: number;
   }];
-  MensajeRespuesta: string;
-  TipoRespuesta: number;
-  ControlTag: string;
+  mensajeRespuesta: string;
+  tipoRespuesta: number;
+  valorSalida: string;
 }
